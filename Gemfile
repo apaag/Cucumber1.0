@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'cucumber-core'
+gem 'page-object'
+gem 'yml_reader'
+gem 'cucumber', '~> 1.3.16'
+gem 'watir-page-helper'
+gem 'rspec-expectations', '~> 3.3.0'
+gem 'win32-clipboard', '~> 0.6.3'
+gem 'headless', '~> 2.1.0'
+gem 'require_all'

@@ -1,0 +1,123 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "description": "",
+    "id": "login",
+    "uri": "D:\\Cucumber\\Features\\login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario Outline",
+        "name": "LoginMe",
+        "line": 3,
+        "description": "",
+        "tags": [
+          {
+            "name": "@run",
+            "line": 2
+          }
+        ],
+        "id": "login;loginme",
+        "type": "scenario_outline",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user is on the homepage",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:1"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user gives <username> and <password>",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "user1"
+                },
+                {
+                  "offset": 21,
+                  "val": "pwd1"
+                }
+              ],
+              "location": "features/step_definitions/login_steps.rb:2"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verification message should be displayed",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:38"
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "user is on the homepage",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:1"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user gives <username> and <password>",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 11,
+                  "val": "user1"
+                },
+                {
+                  "offset": 21,
+                  "val": "pwd1"
+                }
+              ],
+              "location": "features/step_definitions/login_steps.rb:2"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verification message should be displayed",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:38"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "keyword": "Examples",
+            "name": "",
+            "line": 7,
+            "description": "",
+            "id": "login;loginme;",
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8,
+                "id": "login;loginme;;1"
+              },
+              {
+                "cells": [
+                  "user1",
+                  "pwd1"
+                ],
+                "line": 9,
+                "id": "login;loginme;;2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
